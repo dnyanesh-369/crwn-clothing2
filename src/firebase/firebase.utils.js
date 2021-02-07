@@ -2,6 +2,8 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
 
+require('dotenv').config();
+
 const config = {
   apiKey: "AIzaSyDe-GlJXmZMtevuFT4nZbyf555ctXdPWEw",
   authDomain: "crwn-db-9366b.firebaseapp.com",
